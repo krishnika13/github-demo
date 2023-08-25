@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    height: 500px;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(196, 217, 255);
+    align-content:center;
+    gap: 10px;
+    padding: 10px;
+    }
+
+.container>div{
+    background-color: rgb(61, 61, 117);
+    text-align:center;
+    padding: 20px 0;
+    font-size:30px;
+}
+.item1{
+    grid-colom: 1/span 3;
+}
+
+.item7{
+    grid-area: 1/2/5/6;
+}
